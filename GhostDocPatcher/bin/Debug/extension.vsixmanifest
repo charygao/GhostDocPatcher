@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="SubMain.GhostDoc.Pro.vsix" Version="5.9.18070" Language="en-US" Publisher="SubMain" />
+    <DisplayName>GhostDoc Pro</DisplayName>
+    <Description xml:space="preserve">Generate XML Comments from your code, maintain clean and up-to-date documentation, produce help docs in multiple formats, use intelligent source code Spell Checker in Visual Studio.</Description>
+    <MoreInfo>http://submain.com/products/ghostdoc.aspx</MoreInfo>
+    <License>EULA.rtf</License>
+    <ReleaseNotes>http://submain.com/fwlink/ghostdoc/release-notes</ReleaseNotes>
+    <Icon>GhostDoc.ico</Icon>
+    <PreviewImage>GhostDocPreview.png</PreviewImage>
+    <Tags>C#, Comments, Documentation, Help, help authoring, Help Documentation, Sandcastle, Spell Checker, Spelling, StyleCop, VB, visual basic, xml comments, xml documentation</Tags>
+    <!--<GettingStartedGuide>http://submain.com/fwlink/ghostdoc/tutorial/quickstart</GettingStartedGuide>-->
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="15.0" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies></Dependencies>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="SubMain.GhostDoc.Package.clr4.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="SubMain.GhostDoc.Package.clr4.dll" />
+  </Assets>
+</PackageManifest>

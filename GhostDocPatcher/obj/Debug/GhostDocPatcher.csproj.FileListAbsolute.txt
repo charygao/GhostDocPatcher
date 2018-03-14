@@ -1,0 +1,8 @@
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\bin\Debug\GhostDocPatcher.exe
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\bin\Debug\GhostDocPatcher.pdb
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\obj\Debug\GhostDocPatcher.csprojResolveAssemblyReference.cache
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\obj\Debug\GhostDocPatcher.csproj.CoreCompileInputs.cache
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\obj\Debug\GhostDocPatcher.exe
+D:\Program Files\HK\HkDesktop\新建文件夹\GhostDocPatcher\obj\Debug\GhostDocPatcher.pdb
+C:\Users\HK\AppData\Local\Microsoft\VisualStudio\15.0_87028de7\Extensions\5igvqwcc.q5g\GhostDocPatcher.exe
+C:\Users\HK\AppData\Local\Microsoft\VisualStudio\15.0_87028de7\Extensions\5igvqwcc.q5g\GhostDocPatcher.pdb

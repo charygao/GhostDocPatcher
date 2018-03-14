@@ -1,0 +1,92 @@
+﻿[$RootKey$\Packages\{f646ea44-feb2-4168-802a-80c9b64bb8bb}]
+@="GhostDoc Pro"
+"InprocServer32"="$WinDir$\SYSTEM32\MSCOREE.DLL"
+"Class"="SubMain.GhostDoc.VsPackage"
+"CodeBase"="$PackageFolder$\SubMain.GhostDoc.Package.clr4.dll"
+"Assembly"=""
+"ID"=dword:96
+"MinEdition"="Standard"
+"ProductVersion"="1.0.1"
+"ProductName"="GhostDoc"
+"CompanyName"="vbCity.com, LLC"
+
+[$RootKey$\BindingPaths\{f646ea44-feb2-4168-802a-80c9b64bb8bb}]
+"$PackageFolder$"=""
+
+[$RootKey$\AutoLoadPackages\{adfc4e64-0397-11d1-9f4e-00a0c911004f}]
+"{f646ea44-feb2-4168-802a-80c9b64bb8bb}"=dword:0
+
+[$RootKey$\InstalledProducts\GhostDoc]
+@=""
+"Package"="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+"UseInterface"=dword:1
+
+[$RootKey$\Menus]
+"{f646ea44-feb2-4168-802a-80c9b64bb8bb}"=", Menus.ctmenu, 1"
+
+[$RootKey$\Services\{05EAE6C4-F309-4A78-BBA9-755568FFFF17}]
+@="f646ea44-feb2-4168-802a-80c9b64bb8bb"
+"Name"="GhostDoc Pro Markers Provider"
+
+[$RootKey$\Text Editor\External Markers\{3803ED0C-68CE-4664-B255-884C0E5B1CC8}]
+@="GhostDoc Pro Spelling Marker"
+"Service"="{05EAE6C4-F309-4A78-BBA9-755568FFFF17}"
+"DisplayName"="GhostDoc Pro Spelling Marker"
+"Package"="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+
+[$RootKey$\Text Editor\External Markers\{1AD6EC1D-EF0D-4967-9FA8-E5CC36252E49}]
+@="GhostDoc Pro Documentation Maintenance Marker"
+"Service"="{05EAE6C4-F309-4A78-BBA9-755568FFFF17}"
+"DisplayName"="GhostDoc Pro Documentation Maintenance Marker"
+"Package"="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+
+[$RootKey$\ToolWindows\{608F1815-DB09-4978-B970-F45A5D5F46C7}]
+@="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+"Name"="Documentation Maintenance"
+"Style"="Tabbed"
+"Window"="{34E76E81-EE4A-11D0-AE2E-00A0C90FFFC3}"
+"Orientation"="Bottom"
+
+[$RootKey$\ToolWindows\{608F1815-DB09-4978-B970-F45A5D5F46C7}\Visibility]
+"{f1536ef8-92ec-443c-9ed7-fdadf150da82}"=dword:00000000
+
+[$RootKey$\ToolWindows\{9A2545ED-4140-4cb4-BED5-91AED5BAB981}]
+@="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+"Name"="Spelling Report"
+"Style"="Tabbed"
+"Window"="{34E76E81-EE4A-11D0-AE2E-00A0C90FFFC3}"
+"Orientation"="Bottom"
+
+[$RootKey$\ToolWindows\{9A2545ED-4140-4cb4-BED5-91AED5BAB981}\Visibility]
+"{f1536ef8-92ec-443c-9ed7-fdadf150da82}"=dword:00000000
+
+[$RootKey$\ToolWindows\{C30D5156-477B-45da-9EB0-A0A462AFDE85}]
+@="{f646ea44-feb2-4168-802a-80c9b64bb8bb}"
+"Name"="Comment Preview"
+"Style"="Tabbed"
+"Window"="{34E76E81-EE4A-11D0-AE2E-00A0C90FFFC3}"
+"Orientation"="Bottom"
+
+[$RootKey$\ToolWindows\{C30D5156-477B-45da-9EB0-A0A462AFDE85}\Visibility]
+"{f1536ef8-92ec-443c-9ed7-fdadf150da82}"=dword:00000000
+
+[$RootKey$\Themes\{de3dbbcd-f642-433c-8353-8f1df4370aba}\GhostDoc]
+"Data"=hex:d1,00,00,00,0b,00,00,00,01,00,00,00,f3,92,fb,75,95,42,7a,42,b7,0b,86,2a,ae,80,cd,9e,07,00,00,00,15,00,00,00,47,72,69,64,48,65,61,64,69,6e,67,42,61,63\
+,6b,67,72,6f,75,6e,64,01,f6,f6,f6,ff,00,11,00,00,00,45,64,69,74,6f,72,42,6f,72,64,65,72,43,6f,6c,6f,72,01,cc,ce,db,ff,00,09,00,00,00,48,79,70,65,72,6c\
+,69,6e,6b,01,00,00,ff,ff,00,18,00,00,00,53,70,65,6c,6c,69,6e,67,54,6f,6f,6c,74,69,70,42,61,63,6b,43,6f,6c,6f,72,01,ef,ef,f2,ff,00,0a,00,00,00,42,75,74\
+,74,6f,6e,46,61,63,65,01,f6,f6,f6,ff,00,0c,00,00,00,42,75,74,74,6f,6e,53,68,61,64,6f,77,01,cc,ce,bd,ff,00,0e,00,00,00,47,65,74,48,65,61,64,69,6e,67,54\
+,65,78,74,01,1e,1e,1e,ff,00
+
+[$RootKey$\Themes\{1ded0138-47ce-435e-84ef-9ec1f439b749}\GhostDoc]
+"Data"=hex:d1,00,00,00,0b,00,00,00,01,00,00,00,f3,92,fb,75,95,42,7a,42,b7,0b,86,2a,ae,80,cd,9e,07,00,00,00,15,00,00,00,47,72,69,64,48,65,61,64,69,6e,67,42,61,63\
+,6b,67,72,6f,75,6e,64,01,25,25,26,ff,00,11,00,00,00,45,64,69,74,6f,72,42,6f,72,64,65,72,43,6f,6c,6f,72,01,33,33,37,ff,00,09,00,00,00,48,79,70,65,72,6c\
+,69,6e,6b,01,0e,70,c0,ff,00,18,00,00,00,53,70,65,6c,6c,69,6e,67,54,6f,6f,6c,74,69,70,42,61,63,6b,43,6f,6c,6f,72,01,1e,1e,1e,ff,00,0a,00,00,00,42,75,74\
+,74,6f,6e,46,61,63,65,01,3f,3f,46,ff,00,0c,00,00,00,42,75,74,74,6f,6e,53,68,61,64,6f,77,01,3f,3f,46,00,00,0e,00,00,00,47,65,74,48,65,61,64,69,6e,67,54\
+,65,78,74,01,f1,f1,f1,ff,00
+
+[$RootKey$\Themes\{a5c004b4-2d4b-494e-bf01-45fc492522c7}\GhostDoc]
+"Data"=hex:d1,00,00,00,0b,00,00,00,01,00,00,00,f3,92,fb,75,95,42,7a,42,b7,0b,86,2a,ae,80,cd,9e,07,00,00,00,15,00,00,00,47,72,69,64,48,65,61,64,69,6e,67,42,61,63\
+,6b,67,72,6f,75,6e,64,03,0f,00,00,00,00,11,00,00,00,45,64,69,74,6f,72,42,6f,72,64,65,72,43,6f,6c,6f,72,03,10,00,00,00,00,09,00,00,00,48,79,70,65,72,6c\
+,69,6e,6b,03,1a,00,00,00,00,18,00,00,00,53,70,65,6c,6c,69,6e,67,54,6f,6f,6c,74,69,70,42,61,63,6b,43,6f,6c,6f,72,03,05,00,00,00,00,0a,00,00,00,42,75,74\
+,74,6f,6e,46,61,63,65,03,0f,00,00,00,00,0c,00,00,00,42,75,74,74,6f,6e,53,68,61,64,6f,77,03,10,00,00,00,00,0e,00,00,00,47,65,74,48,65,61,64,69,6e,67,54\
+,65,78,74,03,12,00,00,00,00
